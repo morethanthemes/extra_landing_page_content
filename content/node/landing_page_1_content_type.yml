@@ -1,0 +1,243 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1dbdbad1-6767-4324-a54e-e30669f1a467
+  bundle: mt_landing_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Landing Page 1'
+  created:
+    -
+      value: 1746683336
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /landing-page-1
+      langcode: en
+      pathauto: 1
+  layout_builder__layout:
+    -
+      section:
+        layout_id: 'bootstrap_layout_builder:blb_col_1'
+        layout_settings:
+          label: ''
+          container_wrapper_classes: mt-fade-background
+          container_wrapper_attributes: null
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: image
+              background_color:
+                class: _none
+              background_media:
+                image:
+                  media_id: ''
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              text_color:
+                class: null
+              text_alignment:
+                class: null
+              padding:
+                class: _none
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+              border:
+                border_style:
+                  class: null
+                border_width:
+                  class: _none
+                border_color:
+                  class: null
+                rounded_corners:
+                  class: _none
+                border_left_style:
+                  class: null
+                border_left_width:
+                  class: _none
+                border_left_color:
+                  class: null
+                border_top_style:
+                  class: null
+                border_top_width:
+                  class: _none
+                border_top_color:
+                  class: null
+                border_right_style:
+                  class: null
+                border_right_width:
+                  class: _none
+                border_right_color:
+                  class: null
+                border_bottom_style:
+                  class: null
+                border_bottom_width:
+                  class: _none
+                border_bottom_color:
+                  class: null
+                rounded_corner_top_left:
+                  class: _none
+                rounded_corner_top_right:
+                  class: _none
+                rounded_corner_bottom_left:
+                  class: _none
+                rounded_corner_bottom_right:
+                  class: _none
+              box_shadow:
+                class: null
+              scroll_effects:
+                class: null
+          container_wrapper_bg_color_class: ''
+          container_wrapper_bg_media: null
+          container: container-fluid
+          section_classes: ''
+          section_attributes: null
+          regions_classes:
+            blb_region_col_1: ''
+          regions_attributes:
+            blb_region_col_1: null
+          breakpoints: {  }
+          layout_regions_classes: {  }
+          remove_gutters: '0'
+          context_mapping: {  }
+        components:
+          76a633e3-2e8c-4d28-bc64-f7c9816c72ef:
+            uuid: 76a633e3-2e8c-4d28-bc64-f7c9816c72ef
+            region: blb_region_col_1
+            configuration:
+              id: 'block_content:70e5c3a5-f663-4a74-b657-b823c262ae97'
+              label: 'Hero block - Landing page 1'
+              label_display: 0
+              provider: block_content
+              status: true
+              info: ''
+              view_mode: full
+              context_mapping: {  }
+            weight: 0
+            additional:
+              bootstrap_styles:
+                block_style:
+                  background:
+                    background_type: null
+                  background_color:
+                    class: null
+                  background_media:
+                    image:
+                      media_id: null
+                    video:
+                      media_id: null
+                    background_options:
+                      background_position: center
+                      background_repeat: no-repeat
+                      background_attachment: not_fixed
+                      background_size: cover
+                  text_color:
+                    class: null
+                  text_alignment:
+                    class: null
+                  padding:
+                    class: _none
+                  padding_left:
+                    class: _none
+                  padding_top:
+                    class: _none
+                  padding_right:
+                    class: _none
+                  padding_bottom:
+                    class: _none
+                  margin:
+                    class: _none
+                  margin_left:
+                    class: _none
+                  margin_top:
+                    class: _none
+                  margin_right:
+                    class: _none
+                  margin_bottom:
+                    class: _none
+                  border:
+                    border_style:
+                      class: null
+                    border_width:
+                      class: _none
+                    border_color:
+                      class: null
+                    rounded_corners:
+                      class: _none
+                    border_left_style:
+                      class: null
+                    border_left_width:
+                      class: _none
+                    border_left_color:
+                      class: null
+                    border_top_style:
+                      class: null
+                    border_top_width:
+                      class: _none
+                    border_top_color:
+                      class: null
+                    border_right_style:
+                      class: null
+                    border_right_width:
+                      class: _none
+                    border_right_color:
+                      class: null
+                    border_bottom_style:
+                      class: null
+                    border_bottom_width:
+                      class: _none
+                    border_bottom_color:
+                      class: null
+                    rounded_corner_top_left:
+                      class: _none
+                    rounded_corner_top_right:
+                      class: _none
+                    rounded_corner_bottom_left:
+                      class: _none
+                    rounded_corner_bottom_right:
+                      class: _none
+                  box_shadow:
+                    class: null
+                  scroll_effects:
+                    class: null
+        third_party_settings: {  }

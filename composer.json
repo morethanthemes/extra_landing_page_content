@@ -1,0 +1,8 @@
+{
+    "name": "morethanthemes/extra_landing_page_content",
+    "description": "Assigns content to a Landing page.",
+    "type": "drupal-recipe",
+    "require": {
+      "drupal/core": "^11"
+    }
+  }
